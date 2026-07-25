@@ -142,6 +142,7 @@ Since these metrics are generated dynamically, the dashboard automatically updat
 <img src=ss.png/>
 </p>  
  
+## kaggle notebook is uploaded for further info
 
 ## Future Improvements (V2)
 

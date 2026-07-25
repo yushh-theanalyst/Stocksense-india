@@ -75,47 +75,47 @@ The project generates Buy and Sell signals using multiple technical indicators.
 ### Moving Average (MA20 & MA50)
 
 <p align="center">
-  <img src=newplot (1).png width="850/>
+  <img src=ma20ma50.png/>
 </p>
 
 
 ### Bollinger Bands
 
 <p align="center">
-  <img src=newplot (6).png width="1500"/>
+  <img src=bbbands.png/>
 </p>
 
 
 ### RSI,MACD(HISTOGRAM,SIGNAL LINES),ATR
 
 <p align="center">
-<img src=newplot (7).png width="1500"/>
+<img src=macdrsiatr.png/>
 </p>
 
 
 ### Volume Analysis
 
 <p align="center">
-  <img src=newplot (5).png width="1500"/>
+  <img src=vol.png/>
 </p>
 
 
 ### Support & Resistance Levels
 
 <p align="center">
-<img src=newplot (2).png width="1500"/>
+<img src=suppresist.png/>
 </p>
 
 ### SWING LOW & HIGH
 <p align="center">
- <img src=newplot (3).png width="1500"/>
-  <img src=newplot (4).png width="1500"/>
+ <img src=swinghi.png/>
+  <img src=swinglo.png/>
 </p>
 
 ### Buy & Sell Signals
 
 <p align="center">
-<img src=newplot (8).png width="1500"/>
+<img src=sellbuysig.png/>
 </p>  
 ## Key features
 The dashboard automatically generates a real-time summary based on the selected dataset. Instead of manually writing observations, the application calculates key metrics dynamically.

@@ -117,6 +117,7 @@ The project generates Buy and Sell signals using multiple technical indicators.
 <p align="center">
 <img src=sellbuysig.png/>
 </p>  
+ 
 ## Key features
 The dashboard automatically generates a real-time summary based on the selected dataset. Instead of manually writing observations, the application calculates key metrics dynamically.
 
@@ -137,6 +138,10 @@ The summary includes:
 - Average Trading Volume
 
 Since these metrics are generated dynamically, the dashboard automatically updates whenever a different OHLC dataset is loaded.
+<p align="center">
+<img src=Screenshot 2026-07-25 180656.png/>
+</p>  
+ 
 
 ## Future Improvements (V2)
 

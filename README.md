@@ -139,7 +139,7 @@ The summary includes:
 
 Since these metrics are generated dynamically, the dashboard automatically updates whenever a different OHLC dataset is loaded.
 <p align="center">
-<img src=Screenshot 2026-07-25 180656.png/>
+<img src=ss.png/>
 </p>  
  
 

@@ -144,11 +144,23 @@ Since these metrics are generated dynamically, the dashboard automatically updat
  
 ## kaggle notebook is uploaded for further info
 
-## Future Improvements (V2)
+# StockSense India V2
 
-- AI Recommendation Engine
-- Risk-Reward Calculator
-- Stop Loss Prediction
-- Portfolio Tracker
-- Streamlit
-- Multi-Stock Comparison
+So basically after V1 there comes V2 the entire notebook was redesigned into a modular Streamlit app
+The notebook code was divided into independent Python modules, each responsible for a specific task:
+# .utils.py handles data loading, validation, and preprocessing.
+# .indicators.py calculates all technical indicators such as Moving Averages, RSI, MACD, ATR, and Bollinger Bands.
+# .analysis.py applies trading logic to identify trends, breakouts, breakdowns, Golden Cross, Death Cross, and Buy/Sell signals.
+# .charts.py generates interactive Plotly visualizations.
+# .app.py integrates all modules into a user-friendly Streamlit dashboard.
+
+## So what's this & how it Works:
+
+ 1. So basically the prev. original notebook performed all calculations and visualizations in a static environment, where the analysis was limited to a single        dataset and required manually executing each cell.
+ 2. Instead of producing a one-time static analysis, Version 2 allows users to upload any compatible OHLC dataset and instantly generate a complete technical         analysis dashboard with interactive charts, summary metrics, and trading signals. This modular architecture makes the application easier to maintain, extend,     and scale while providing a much more interactive user experience.
+ 
+
+
+## Demo 
+
+

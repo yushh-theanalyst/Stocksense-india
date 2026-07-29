@@ -154,14 +154,61 @@ The notebook code was divided into independent Python modules, each responsible 
   4. charts.py generates interactive Plotly visualizations.
   5. app.py integrates all modules into a user-friendly Streamlit dashboard.
 
-## So what's this & how it Works:
+## What is V2 ??
 
  1. So basically the prev. original notebook performed all calculations and visualizations in a static environment, where the analysis was limited to a single        dataset and required manually executing each cell.
-
-  
  2. Instead of producing a one-time static analysis, Version 2 allows users to upload any compatible OHLC dataset and instantly generate a complete technical         analysis dashboard with interactive charts, summary metrics, and trading signals. This modular architecture makes the application easier to maintain, extend,     and scale while providing a much more interactive user experience.
- 
 
+## How it works ??
+
+Step 1: Launch the Application
+Run the Streamlit application locally or open the deployed web app in your browser.
+
+Step 2: Upload Your Dataset
+Click the "Browse Files" button in the sidebar and upload a CSV file containing stock market OHLC data.
+
+Required Columns
+Date
+Open
+High
+Low
+Close
+Volume
+
+Optional Columns
+Support
+Resistance
+Swing High
+Swing Low
+
+Step 3: Automatic Data Processing
+Once the dataset is uploaded, StockSense India V2 automatically:
+Validates the uploaded dataset
+Calculates technical indicators (MA20, MA50, RSI, MACD, ATR, Bollinger Bands)
+Detects market trends
+Identifies Breakouts and Breakdowns
+Generates Buy & Sell signals
+Computes key market statistics
+No manual calculations or configuration are required.
+
+Step 4: Explore the Dashboard
+Navigate through the interactive tabs to analyze different aspects of the stock:
+1.Price Analysis – Candlestick chart with Moving Averages, Support & Resistance, and Swing Levels.
+2.Volume Analysis – Trading volume alongside price movement.
+3. Bollinger Bands – Analyze volatility and price position within the bands.
+4. RSI, MACD & ATR – Monitor momentum, trend strength, and market volatility.
+5. Buy & Sell Signals – Visualize automatically generated trading signals on the price chart.
+
+Step 5: Review the Market Summary
+At the top of the dashboard, KPI cards provide a quick overview of:
+Current Price
+Market Trend
+Buy Signals
+Sell Signals
+Breakouts
+Breakdowns
+Golden Crosses
+Death Crosses
 
 ## Demo 
 

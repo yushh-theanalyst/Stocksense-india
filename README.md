@@ -21,7 +21,6 @@ The project begins with raw OHLC stock data, performs technical analysis in Exce
    - Daily Return
 <p align="center">
   <img src=excelss.png/>
- width="900"/>
 </p>
 
   ##  Python Analysis

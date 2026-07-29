@@ -211,4 +211,6 @@ Death Crosses
 
 ## Demo 
 https://github.com/yushh-theanalyst/Stocksense-india/blob/main/scrnrec.mp4
-Successfully deployed the app:-https://stock-analysis-app-app-wtyn6iyvpkk7jfnacbnlst.streamlit.app/
+
+
+**Successfully deployed the app**:-https://stock-analysis-app-app-wtyn6iyvpkk7jfnacbnlst.streamlit.app/

@@ -210,6 +210,6 @@ Golden Crosses
 Death Crosses
 
 ## Demo 
-<p align="centre">
-<video src="scrnrec.mp4"/>
+## Demo Video
 
+https://github.com/yushh-theanalyst/Stocksense-india/blob/main/scrnrec.mp4

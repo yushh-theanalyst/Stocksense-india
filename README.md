@@ -214,7 +214,7 @@ https://github.com/yushh-theanalyst/Stocksense-india/blob/main/scrnrec.mp4
 **Successfully deployed the app**:-https://stock-analysis-app-app-wtyn6iyvpkk7jfnacbnlst.streamlit.app/
 
 
-# StockSense India — V3
+# StockSense India  V3
 
 An upgrade to the StockSense India dashboard. On top of the existing technical analysis tools (V1) and web app (V2), this version adds a machine learning model that predicts Buy / Hold / Sell signals for NIFTY 50 based on historical price data and technical indicators it is trained all wrapped into Streamlit app.
 

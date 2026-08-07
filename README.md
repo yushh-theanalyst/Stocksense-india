@@ -118,7 +118,7 @@ The project generates Buy and Sell signals using multiple technical indicators.
 </p>  
  
 ## Key features
-The dashboard automatically generates a real-time summary based on the selected dataset. Instead of manually writing observations, the application calculates key metrics dynamically.
+The dashboard automatically generates a real-time summary based on the selected dataset. Instead of manually writing observations, it calculates key metrics dynamically.
 
 The summary includes:
 
@@ -140,8 +140,6 @@ Since these metrics are generated dynamically, the dashboard automatically updat
 <p align="center">
 <img src=ss.png/>
 </p>  
- 
-## kaggle notebook is uploaded for further info
 
 # StockSense India V2
 
@@ -214,3 +212,40 @@ https://github.com/yushh-theanalyst/Stocksense-india/blob/main/scrnrec.mp4
 
 
 **Successfully deployed the app**:-https://stock-analysis-app-app-wtyn6iyvpkk7jfnacbnlst.streamlit.app/
+
+
+# StockSense India — V3
+
+An upgrade to the StockSense India dashboard. On top of the existing technical analysis tools (V1) and web app (V2), this version adds a machine learning model that predicts Buy / Hold / Sell signals for NIFTY 50 based on historical price data and technical indicators it is trained all wrapped into Streamlit app.
+
+## Features
+* Fetch live NIFTY 50 stock data
+* Upload and analyze custom CSV datasets
+* Automatic data preprocessing and feature engineering
+* ML-based Buy / Hold / Sell prediction
+* Model comparison using Logistic Regression, Random Forest, and XGBoost
+* Interactive Streamlit dashboard with a responsive UI
+
+## Libraries & Technologies
+
+* Python
+* Streamlit
+* Pandas
+* NumPy
+* Plotly
+* Scikit-learn
+* XGBoost
+* yFinance
+* Joblib
+
+## What I Learned
+
+* Learned to fetch, clean, and preprocess live stock market data.
+* Applied feature engineering using RSI, MACD, Bollinger Bands, ATR, and Moving Averages.
+* Compared multiple machine learning models including Logistic Regression, Random Forest, and XGBoost.
+* Understood why Precision, Recall, and F1-Score are more reliable than accuracy for imbalanced datasets.
+* Learned how class imbalance and feature engineering impact model performance.
+* Integrated a trained machine learning model into a Streamlit application with interactive visualizations.
+
+## Project Status
+With ML added in, I'm calling this project complete. Started as a spreadsheeton, became a web app, and now it's an actual working AI model

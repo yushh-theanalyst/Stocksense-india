@@ -248,4 +248,4 @@ An upgrade to the StockSense India dashboard. On top of the existing technical a
 * Integrated a trained machine learning model into a Streamlit application with interactive visualizations.
 
 ## Project Status
-With ML added in, I'm calling this project complete. Started as a spreadsheeton, became a web app, and now it's an actual working AI model
+With ML added in, I'm calling this project complete. Started as a spreadsheet, became a web app, and now it's an actual working AI model
